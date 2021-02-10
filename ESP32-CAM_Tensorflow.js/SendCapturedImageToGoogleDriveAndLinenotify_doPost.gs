@@ -49,12 +49,6 @@ function doPost(e) {
 
 /*
 
-//Author : ChungYi Fu (Kaohsiung, Taiwan)   2019/9/7 09:00
-//https://www.facebook.com/francefu
-
-//Another way 1
-//You could send up to 50 images to Line Notify in one hour.
-
 function doPost(e) {
   var myFoldername = e.parameter.myFoldername;
   var myFile = e.parameter.myFile;
@@ -113,9 +107,6 @@ function sendImagetoLineNotify(imageData, token, boundary){
 
 
 /*
-
-//Author : ChungYi Fu (Kaohsiung, Taiwan)   2019/9/7 09:00
-//https://www.facebook.com/francefu
 
 //Another way 2
 //You could send up to 50 images to Line Notify in one hour.
